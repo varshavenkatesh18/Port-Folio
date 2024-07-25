@@ -1,0 +1,128 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header p {
+    margin-top: 0.5em;
+}
+
+section {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    margin-top: 0;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+/* styles.css */
+
+/* Color Palette */
+:root {
+    --primary-color: #cad2c5; /* Light green */
+    --secondary-color: #84a98c; /* Medium green */
+    --accent-color: #52796f; /* Dark green */
+    --text-color: #2f3e46; /* Dark gray text */
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: var(--primary-color); /* Set primary color as background */
+}
+
+header {
+    background-color: var(--secondary-color); /* Set secondary color for header */
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header p {
+    margin-top: 0.5em;
+}
+
+section {
+    background-color: white;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Shadow effect */
+}
+
+section h2 {
+    margin-top: 0;
+    color: var(--accent-color); /* Use accent color for section headings */
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: var(--secondary-color); /* Set secondary color for footer */
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+a {
+    color: var(--accent-color); /* Use accent color for links */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
